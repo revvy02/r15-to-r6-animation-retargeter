@@ -1,0 +1,6 @@
+/out/
+/.rodeo/
+/roblox_packages/
+/.pesde/
+.DS_Store
+sourcemap.json

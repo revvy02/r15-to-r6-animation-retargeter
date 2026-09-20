@@ -1,0 +1,18 @@
+{
+  "name": "R15ToR6Retargeter",
+  "tree": {
+    "$path": "plugin",
+    "Retarget": {
+      "$path": "package/src"
+    },
+    "Rigs": {
+      "$className": "Folder",
+      "R15": {
+        "$path": "assets/r15.rbxm"
+      },
+      "R6": {
+        "$path": "assets/r6.rbxm"
+      }
+    }
+  }
+}

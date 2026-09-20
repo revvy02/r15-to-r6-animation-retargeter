@@ -1,0 +1,14 @@
+name = "rvy/r15_to_r6"
+version = "0.1.0"
+private = true
+description = "R15 KeyframeSequence to R6 retargeting"
+repository = "https://github.com/revvy02/r15-to-r6-animation-retargeter"
+includes = ["pesde.toml", "src/**/*.luau", "README.md"]
+
+[engines]
+pesde = "^0.7.2"
+
+[target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]

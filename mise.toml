@@ -1,0 +1,14 @@
+[tools]
+"ubi:rojo-rbx/rojo" = "7.7.0"
+"ubi:revvy02/rodeo" = "v1.3.0"
+
+[tasks.build]
+run = "mkdir -p out && rojo build plugin.project.json -o out/R15ToR6Retargeter.rbxm"
+
+[tasks.test]
+depends = ["build"]
+run = "rodeo run --place tests/run.luau"
+
+[tasks.review]
+depends = ["build"]
+run = "rodeo run --place --focus tests/review.luau"
