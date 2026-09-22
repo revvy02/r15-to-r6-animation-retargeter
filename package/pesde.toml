@@ -1,4 +1,4 @@
-name = "rvy/r15_to_r6"
+name = "rvy/retarget_r15_to_r6"
 version = "0.1.0"
 private = true
 description = "R15 KeyframeSequence to R6 retargeting"

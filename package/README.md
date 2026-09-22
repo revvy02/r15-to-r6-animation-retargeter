@@ -1,9 +1,9 @@
 # R15 to R6 retargeting
 
-A Roblox-target pesde package for converting an R15 `KeyframeSequence` into a new R6 sequence. No game hierarchy, asset fetching, plugin, or third-party dependencies are required.
+`rvy/retarget_r15_to_r6` is a Roblox-target pesde package for converting an R15 `KeyframeSequence` into a new R6 sequence. No game hierarchy, asset fetching, plugin, or third-party dependencies are required.
 
 ```luau
-local retarget = require(path.to.r15_to_r6)
+local retarget = require(path.to.retarget_r15_to_r6)
 local converted = retarget(sequence, { counterWaistSwingOnLegs = false })
 if converted then
     converted.Parent = destination
