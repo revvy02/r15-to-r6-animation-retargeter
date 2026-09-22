@@ -4,3 +4,4 @@
 /.pesde/
 .DS_Store
 sourcemap.json
+__pycache__/

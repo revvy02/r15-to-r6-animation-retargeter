@@ -12,3 +12,7 @@ run = "rodeo run --place tests/run.luau"
 [tasks.review]
 depends = ["build"]
 run = "rodeo run --place --focus tests/review.luau"
+
+[tasks.videos]
+description = "Render synchronized fixture comparison MP4s"
+run = "python3 tools/videos.py"

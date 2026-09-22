@@ -9,9 +9,10 @@ return function(plugin, convert, rigs)
 	local toolbar = plugin:CreateToolbar("R15 → R6")
 	local toggle = toolbar:CreateButton("R15ToR6", "Convert R15 animations to R6", "", "Retarget")
 	toggle.ClickableWhenViewportHidden = true
+	-- Start a new saved layout so v1's floating position does not override the dock.
 	local widget = plugin:CreateDockWidgetPluginGuiAsync(
-		"R15ToR6Retargeter.v1",
-		DockWidgetPluginGuiInfo.new(Enum.InitialDockState.Float, false, false, 400, 760, 320, 480)
+		"R15ToR6Retargeter.v2",
+		DockWidgetPluginGuiInfo.new(Enum.InitialDockState.Right, false, false, 400, 760, 320, 480)
 	)
 	widget.Title = "R15 → R6 Retargeter"
 	local view = makeView(widget)

@@ -1,0 +1,139 @@
+{
+  "generatedAt": "2026-09-20T09:08:44.108065+00:00",
+  "converterSha256": "d51e9a1cd9963fc25360f5dc2bc4da884864f4306bb7e338dc2190a76bacc11b",
+  "rendererSha256": "6cb469caf85e42119f1f91ae0673eceff12ae05db5fedce45a118d32286eee54",
+  "fixtures": [
+    {
+      "sourceLooped": true,
+      "seconds": 6,
+      "frames": 144,
+      "fps": 24,
+      "clipSeconds": 1.0833419561386108,
+      "name": "rbx_animate_dance",
+      "fov": 35,
+      "viewport": [
+        1794,
+        833
+      ],
+      "camera": [
+        0,
+        2.5580554008483887,
+        -17.382436752319336,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "sourceSha256": "f001f8772983aaf014aa02b10e952b35b7c82442f085787fddd7e299a8323ddf",
+      "uniqueCaptureFrames": 144,
+      "counterWaist": false,
+      "encoding": {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "pix_fmt": "yuv420p",
+        "avg_frame_rate": "24/1",
+        "duration": "6.000000",
+        "nb_read_frames": "144"
+      },
+      "generatedAt": "2026-09-20T09:08:41.244903+00:00",
+      "converterSha256": "d51e9a1cd9963fc25360f5dc2bc4da884864f4306bb7e338dc2190a76bacc11b",
+      "rendererSha256": "6cb469caf85e42119f1f91ae0673eceff12ae05db5fedce45a118d32286eee54"
+    },
+    {
+      "sourceLooped": false,
+      "seconds": 6,
+      "frames": 144,
+      "fps": 24,
+      "clipSeconds": 1.0833333730697632,
+      "name": "rbx_animate_jump",
+      "fov": 35,
+      "viewport": [
+        1794,
+        833
+      ],
+      "camera": [
+        0,
+        2.764612913131714,
+        -15.033736228942871,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "sourceSha256": "d6659c30dd2d80370d9199ee7b2a4869023dc644692100d836a0330faa7eb470",
+      "uniqueCaptureFrames": 144,
+      "counterWaist": false,
+      "encoding": {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "pix_fmt": "yuv420p",
+        "avg_frame_rate": "24/1",
+        "duration": "6.000000",
+        "nb_read_frames": "144"
+      },
+      "generatedAt": "2026-09-20T09:08:41.244903+00:00",
+      "converterSha256": "d51e9a1cd9963fc25360f5dc2bc4da884864f4306bb7e338dc2190a76bacc11b",
+      "rendererSha256": "6cb469caf85e42119f1f91ae0673eceff12ae05db5fedce45a118d32286eee54"
+    },
+    {
+      "sourceLooped": true,
+      "seconds": 6,
+      "frames": 144,
+      "fps": 24,
+      "clipSeconds": 0.625,
+      "name": "rbx_animate_walk",
+      "fov": 35,
+      "viewport": [
+        1794,
+        833
+      ],
+      "camera": [
+        0,
+        2.4009509086608887,
+        -14.815428733825684,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "sourceSha256": "65ed2794a8aee2c6a06b62f9e563f2ad71d6a9acf974f2b3bd2070f98c351266",
+      "uniqueCaptureFrames": 132,
+      "counterWaist": false,
+      "encoding": {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "pix_fmt": "yuv420p",
+        "avg_frame_rate": "24/1",
+        "duration": "6.000000",
+        "nb_read_frames": "144"
+      },
+      "generatedAt": "2026-09-20T09:08:41.244903+00:00",
+      "converterSha256": "d51e9a1cd9963fc25360f5dc2bc4da884864f4306bb7e338dc2190a76bacc11b",
+      "rendererSha256": "6cb469caf85e42119f1f91ae0673eceff12ae05db5fedce45a118d32286eee54"
+    }
+  ],
+  "skipped": [
+    {
+      "name": "r6_animate_idle1",
+      "skipped": "No R15 body poses (negative fixture)"
+    }
+  ]
+}
