@@ -1,0 +1,12 @@
+[package]
+name = "revvy02/retarget-r15-to-r6"
+description = "Convert Roblox R15 KeyframeSequences to R6 poses"
+version = "0.1.0"
+license = "MIT"
+authors = ["revvy02"]
+registry = "https://github.com/UpliftGames/wally-index"
+repository = "https://github.com/revvy02/r15-to-r6-animation-retargeter"
+realm = "shared"
+
+exclude = ["**"]
+include = ["src", "src/**", "wally.toml", "default.project.json", "LICENSE", "README.md"]

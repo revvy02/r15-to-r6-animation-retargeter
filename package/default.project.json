@@ -1,0 +1,6 @@
+{
+  "name": "retarget-r15-to-r6",
+  "tree": {
+    "$path": "src"
+  }
+}

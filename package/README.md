@@ -1,6 +1,28 @@
 # R15 to R6 retargeting
 
-`rvy/retarget_r15_to_r6` is a Roblox-target pesde package for converting an R15 `KeyframeSequence` into a new R6 sequence. No game hierarchy, asset fetching, plugin, or third-party dependencies are required.
+Convert an R15 `KeyframeSequence` into a new R6 sequence. No game hierarchy, asset fetching, plugin, or third-party dependencies are required.
+
+## Installation
+
+In your `wally.toml`:
+
+```toml
+[dependencies]
+retarget_r15_to_r6 = "revvy02/retarget-r15-to-r6@0.1.0"
+```
+
+Run `wally install`, then require `Packages.retarget_r15_to_r6`.
+
+The same source is available as the pesde Git package `rvy/retarget_r15_to_r6`:
+
+```toml
+[dependencies]
+retarget_r15_to_r6 = { repo = "https://github.com/revvy02/r15-to-r6-animation-retargeter", rev = "<full-commit-sha>", path = "package" }
+```
+
+Git installation requires repository access while the source repository is private.
+
+## Usage
 
 ```luau
 local retarget = require(path.to.retarget_r15_to_r6)
@@ -20,6 +42,10 @@ end
 
 ## Scope
 
-The joint definitions are calibrated to the bundled reference R15 and R6 rigs. This is a lossy mapping from articulated R15 limbs onto rigid R6 limbs, not a universal avatar-proportion solver. Facial, finger, and other non-body pose channels are not transferred. CurveAnimation inputs are not supported. Existing sampling and easing behavior is preserved by this extraction.
+The joint definitions are calibrated to the repository's reference R15 and R6 rigs. This is a lossy mapping from articulated R15 limbs onto rigid R6 limbs, not a universal avatar-proportion solver. Facial, finger, and other non-body pose channels are not transferred. CurveAnimation inputs are not supported. Existing sampling and easing behavior is preserved by this extraction.
 
-The package is private and is consumed from Git; it is never published to a registry.
+## License
+
+MIT; see [LICENSE](LICENSE). The published package contains the converter, this documentation, its license, and package metadata. Roblox rigs, animation fixtures, videos, and the Studio plugin are not included.
+
+`private = true` in `pesde.toml` prevents publication to the pesde registry. Wally publication uses the separate `wally.toml` manifest.

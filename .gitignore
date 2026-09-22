@@ -5,3 +5,6 @@
 .DS_Store
 sourcemap.json
 __pycache__/
+/package/Packages/
+/package/ServerPackages/
+/package/DevPackages/

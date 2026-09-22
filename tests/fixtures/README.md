@@ -2,6 +2,8 @@
 
 Each R15 KeyframeSequence has a video showing the original on the left and its R6 conversion on the right. Both rigs play the same source time at the same scale. The camera stays fixed throughout each clip.
 
+The animation assets are authored by Roblox (user ID `1`): walk is [10921541949](https://www.roblox.com/library/10921541949), dance is [507771019](https://www.roblox.com/library/507771019), jump is [507765000](https://www.roblox.com/library/507765000), and R6 idle is [180435571](https://www.roblox.com/library/180435571). See [third-party notices](../../THIRD_PARTY_NOTICES.md) for attribution and scope.
+
 | Animation | Source fixture | Conversion video |
 | --- | --- | --- |
 | Walk | [KeyframeSequence](rbx_animate_walk.rbxm) | [MP4](videos/rbx_animate_walk.mp4) |

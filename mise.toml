@@ -1,6 +1,7 @@
 [tools]
 "ubi:rojo-rbx/rojo" = "7.7.0"
 "ubi:revvy02/rodeo" = "v1.3.0"
+"ubi:UpliftGames/wally" = "v0.3.2"
 
 [tasks.build]
 run = "mkdir -p out && rojo build plugin.project.json -o out/R15ToR6Retargeter.rbxm"
@@ -16,3 +17,11 @@ run = "rodeo run --place --focus tests/review.luau"
 [tasks.videos]
 description = "Render synchronized fixture comparison MP4s"
 run = "python3 tools/videos.py"
+
+[tasks.package-wally]
+description = "Package the converter for Wally"
+run = "mkdir -p out && wally package --project-path package --output out/retarget-r15-to-r6.zip"
+
+[tasks.publish-wally]
+description = "Publish the converter to Wally"
+run = "wally publish --project-path package"
