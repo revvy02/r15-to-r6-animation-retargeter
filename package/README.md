@@ -17,7 +17,7 @@ The same source is available as the pesde Git package `rvy/retarget_r15_to_r6`:
 
 ```toml
 [dependencies]
-retarget_r15_to_r6 = { repo = "https://github.com/revvy02/r15-to-r6-animation-retargeter", rev = "<full-commit-sha>", path = "package" }
+retarget_r15_to_r6 = { repo = "https://github.com/revvy02/retarget-r15-to-r6", rev = "<full-commit-sha>", path = "package" }
 ```
 
 Git installation requires repository access while the source repository is private.

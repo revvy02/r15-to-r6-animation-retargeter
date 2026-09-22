@@ -5,7 +5,7 @@ version = "0.1.0"
 license = "MIT"
 authors = ["revvy02"]
 registry = "https://github.com/UpliftGames/wally-index"
-repository = "https://github.com/revvy02/r15-to-r6-animation-retargeter"
+repository = "https://github.com/revvy02/retarget-r15-to-r6"
 realm = "shared"
 
 exclude = ["**"]
